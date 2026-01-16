@@ -19,7 +19,7 @@
               </div>
             {{- else }}
               <div class="col-auto px-1 copyright-legal">
-                {{- i18n "footerLegal.copyright" -}} &nbsp;{{ now.Format "2026" -}}
+                {{- i18n "footerLegal.copyright" -}} &nbsp;{{ now.Format "2006" -}}
               </div>
               <div class="col-auto px-0 copyright-by">
                 {{- printf " %s %s" (i18n "footerLegal.by") $root.Site.Params.name -}}
